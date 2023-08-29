@@ -6,4 +6,18 @@ return {
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.colorscheme.catppuccin", enabled = true },
+  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.terraform" },
+  { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.docker" },
+  { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
+  {
+    "m4xshen/smartcolumn.nvim",
+    opts = {
+      colorcolumn = 120,
+      disabled_filetypes = { "help" },
+    },
+  },
+  colorscheme = "catppuccin",
 }

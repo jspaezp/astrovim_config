@@ -1,12 +1,4 @@
 return {
-  plugins = {
-    "AstroNvim/astrocommunity",
-    { import = "astrocommunity.colorscheme.catppuccin" },
-    { import = "astrocommunity.pack.python" },
-    { import = "astrocommunity.pack.terraform" },
-    { import = "astrocommunity.pack.rust" },
-    { import = "astrocommunity.pack.docker" },
-  },
   -- Configure AstroNvim updates
   updater = {
     remote = "origin", -- remote to use
@@ -26,7 +18,8 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  -- colorscheme = "astrodark",
+  colorscheme = "catppuccin",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
