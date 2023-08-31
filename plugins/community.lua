@@ -12,6 +12,7 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
+  { import = "astrocommunity.motion.nvim-surround" },
   {
     "m4xshen/smartcolumn.nvim",
     opts = {
